@@ -1,4 +1,5 @@
-
+" g Leader key
+let mapleader=" "
 " Keymaps
 nnoremap <C-;> <esc:set relativenumber! <CR>
 nnoremap <C-s> <esc>:w <CR>

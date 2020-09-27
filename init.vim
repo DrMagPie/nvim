@@ -11,7 +11,7 @@
 
 
 " General Settings
-source $HOME/.config/nvim/plugins/init.vim
-source $HOME/.config/nvim/common/init.vim
-source $HOME/.config/nvim/keys/init.vim
+source ~/.config/nvim/plug.vim
+source ~/.config/nvim/global/init.vim
+source ~/.config/nvim/keys/init.vim
 
