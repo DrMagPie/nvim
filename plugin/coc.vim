@@ -15,9 +15,9 @@ if exists("g:plugs['coc.nvim']")
     \ 'coc-vimlsp',
     \ 'coc-yank',
     \ 'coc-json',
-    \ 'coc-marketplace',
     \ ] " https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions
     " \ 'coc-xml',
+    " \ 'coc-marketplace',
     " \ 'coc-svg',
     " \ 'coc-cssmodules',
     " \ 'coc-html',
