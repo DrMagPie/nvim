@@ -12,7 +12,7 @@ if exists("g:plugs['vim-airline']")
   let g:airline_right_sep = ''
 
   " Switch to your current theme
-  let g:airline_theme = 'molokai'
+  " let g:airline_theme = 'molokai'
 
   " Always show tabs
   set showtabline=2

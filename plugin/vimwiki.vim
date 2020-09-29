@@ -57,27 +57,4 @@ if exists("g:plugs['vimwiki']")
     \ 7: 'July', 8: 'August', 9: 'September',
     \ 10: 'October', 11: 'November', 12: 'December'
     \ }
-
-  " w is for wiki
-  if exists("g:plugs['vim-which-key']")
-    let g:which_key_map.w = {
-      \ 'name' : '+wiki' ,
-      \ 'w' : ['<Plug>VimwikiIndex'                             , 'ncdu'],
-      \ 'n' : ['<plug>(wiki-open)'                              , 'ncdu'],
-      \ 'j' : ['<plug>(wiki-journal)'                           , 'ncdu'],
-      \ 'R' : ['<plug>(wiki-reload)'                            , 'ncdu'],
-      \ 'c' : ['<plug>(wiki-code-run)'                          , 'ncdu'],
-      \ 'b' : ['<plug>(wiki-graph-find-backlinks)'              , 'ncdu'],
-      \ 'g' : ['<plug>(wiki-graph-in)'                          , 'ncdu'],
-      \ 'G' : ['<plug>(wiki-graph-out)'                         , 'ncdu'],
-      \ 'l' : ['<plug>(wiki-link-toggle)'                       , 'ncdu'],
-      \ 'd' : ['<plug>(wiki-page-delete)'                       , 'ncdu'],
-      \ 'r' : ['<plug>(wiki-page-rename)'                       , 'ncdu'],
-      \ 't' : ['<plug>(wiki-page-toc)'                          , 'ncdu'],
-      \ 'T' : ['<plug>(wiki-page-toc-local)'                    , 'ncdu'],
-      \ 'e' : ['<plug>(wiki-export)'                            , 'ncdu'],
-      \ 'u' : ['<plug>(wiki-list-uniq)'                         , 'ncdu'],
-      \ 'U' : ['<plug>(wiki-list-uniq-local)'                   , 'ncdu'],
-      \ }
-  endif
 endif

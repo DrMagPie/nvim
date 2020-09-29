@@ -4,6 +4,7 @@ let mapleader=" "
 nnoremap <C-;> <esc:set relativenumber! <CR>
 nnoremap <C-s> <esc>:w <CR>
 nnoremap <C-q> <esc>:q <CR>
+nnoremap <C-\> <esc>:Commentary<CR>
 nnoremap <C-_> <esc>:Commentary<CR>
 nnoremap <C-z> <esc> u
 nnoremap <C-v> P
@@ -12,6 +13,7 @@ inoremap <C-;> <esc>:set relativenumber! <CR> a
 inoremap <C-s> <esc>:w <CR> a
 inoremap <C-q> <esc>:q <CR>
 inoremap <C-_> <esc>:Commentary<CR> a
+inoremap <C-\> <esc>:Commentary<CR> a
 inoremap <C-z> <esc> u a
 inoremap <C-v> <esc> p a
 
@@ -27,7 +29,7 @@ inoremap <expr> <c-k> ("\<C-p>")
 
 
 nnoremap <C-Q> :wq!<CR> " Alternate way to quit
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>" " <TAB>: completion.
+" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>" " <TAB>: completion.
 
 " " I hate escape more than anything else
 " inoremap jk <Esc>

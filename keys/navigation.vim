@@ -1,6 +1,6 @@
 
-nnoremap <TAB> :bnext<CR>       " TAB in general mode will move to text buffer
-nnoremap <S-TAB> :bprevious<CR> " SHIFT-TAB will go back
+" nnoremap <TAB> :bnext<CR>       " TAB in general mode will move to text buffer
+" nnoremap <S-TAB> :bprevious<CR> " SHIFT-TAB will go back
 
 " Better window navigation
 nnoremap <C-h> <C-w>h

@@ -53,7 +53,7 @@ if exists("g:plugs['fzf.vim']")
   "   \ call fzf#vim#grep(
   "   \   "rg --column --line-number --no-heading --color=always --smart-case --glob '!.git/**' ".shellescape(<q-args>), 1,
 
-   " Make Ripgrep ONLY search file contents and not filenames
+  " Make Ripgrep ONLY search file contents and not filenames
   command! -bang -nargs=* Rg
     \ call fzf#vim#grep(
     \   'rg --column --line-number --hidden --smart-case --no-heading --color=always '.shellescape(<q-args>), 1,
